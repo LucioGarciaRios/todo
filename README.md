@@ -18,7 +18,7 @@ Esta é uma API RESTful para gerenciamento de tarefas (To-Do List). Ela permite 
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/LucioGarciaRios/todo-api.git
+   git clone https://github.com/LucioGarciaRios/todo.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
