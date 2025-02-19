@@ -26,11 +26,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: build
-    env:
-      DB_URL: jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=false
-      DB_USR: sa
-      DB_PWD: Senha@12345
-      LOG-LEVEL: DEBUG
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
