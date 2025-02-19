@@ -42,10 +42,10 @@ Esta é uma API RESTful para gerenciamento de tarefas (To-Do List). Ela permite 
 
 Você precisará preencher as seguintes variaveis de ambiente:
 
-   ${DB_URL} - jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=false
-   ${DB_USR} - sa
-   ${DB_PWD} - Senha@12345
-   ${LOG-LEVEL} - DEBUG
+   DB_URL - jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=false
+   DB_USR - sa
+   DB_PWD - Senha@12345
+   LOG_LEVEL - DEBUG
 
 
 ## Documentação da API
